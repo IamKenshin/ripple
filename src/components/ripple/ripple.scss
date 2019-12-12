@@ -1,0 +1,16 @@
+.ripple {
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    opacity: 0.5;
+    border: solid 1px blue;
+    border-radius: 50%;
+    animation: ripple 500ms;
+}
+
+@keyframes ripple {
+    to {
+      opacity: 0;
+      transform: scale(2);
+    }
+  }
